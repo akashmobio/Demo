@@ -13,7 +13,7 @@ class StudentController extends Controller
         $data = $collection->all();
         // dd($data);
 
-        $data1 = $collection1->avg();
+        // $data1 = $collection1->avg();
 
         $data1 = $collection1->chunk(3);
         // dd($data1->all());
